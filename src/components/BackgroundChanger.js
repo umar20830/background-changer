@@ -1,5 +1,6 @@
 'use client'
-import React, { useRef, useState } from 'react'
+import React, {  useState } from 'react'
+
 
 
 const BackgroundChanger = () => {
@@ -41,6 +42,7 @@ const BackgroundChanger = () => {
             <div
                 className={`w-full h-full relative ${color}`}
             >
+    
                 <div
 
                     className="w-full h-[10%] absolute bottom-0 flex justify-center items-center gap-4 bg-slate-500"
